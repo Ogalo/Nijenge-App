@@ -27,6 +27,7 @@ function SignIn() {
             <p>Don't have an account? <a href="#signUp" id="butt2">Sign Up</a>.</p>
           </div>
         </form>
+        
       </div>
    
 
