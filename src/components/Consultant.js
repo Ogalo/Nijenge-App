@@ -37,4 +37,4 @@ function Consultant() {
 }
 
 
-export default Consultantc
+export default Consultant;
