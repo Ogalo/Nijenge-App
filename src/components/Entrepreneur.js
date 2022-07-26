@@ -7,10 +7,6 @@ function Entrepreneur() {
   }])
 
   return (
-    <div className='proposalContainer'>
-      <h1>Entrepreneur Proposal</h1>
-      <p>Please fill in the form</p>
-
       <div>
         <form action="" class="entrepreneur" id="entreProp">
           <span className = "closeBtn2">
@@ -52,7 +48,7 @@ function Entrepreneur() {
         <button type='submit' onClick={()=>{}}>Submit Form</button>
         </form>
       </div>
-      </div>
+      
   )
 }
 

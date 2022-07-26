@@ -8,7 +8,7 @@
 
 .mainPage{
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -63,7 +63,7 @@
 
 .logInPage{
   width: 100%;
-  display: none;
+  display: block;
   position:absolute;
   justify-content: center;
   align-content: center;
@@ -74,7 +74,7 @@
 
 .entrePage{
   width: 100%;
-  display: none;
+  display: block;
   height: 120vh;
   position:absolute;
   justify-content: center;
@@ -103,7 +103,7 @@
 
 .about{
   width: 100%;
-  display: none;
+  display: block;
   position: absolute;
   justify-content: center;
   align-content: center;
@@ -346,4 +346,4 @@ a {
 
 .content-table tbody tr:nth-of-type(even){
   background-color: #f3f3f3;
-}
+} 

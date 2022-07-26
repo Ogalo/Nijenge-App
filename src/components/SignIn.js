@@ -2,13 +2,13 @@ import React from 'react'
 
 function SignIn() {
   return (
-      <div class="logIn">
+      <div className="logIn">
         <form >
-          <span class = "closeBtn1">
-            <i class = "fas fa-times"></i>
+          <span className = "closeBtn1">
+            <i className = "fas fa-times"></i>
           </span>
 
-          <div class="container2">
+          <div className="container2">
             <h1>Log In</h1>
           
       
@@ -20,10 +20,10 @@ function SignIn() {
       
           
       
-            <button type="submit" class="registerbtn">Log In</button>
+            <button type="submit" className="registerbtn">Log In</button>
           </div>
       
-          <div class="container signin">
+          <div className="container signin">
             <p>Don't have an account? <a href="#signUp" id="butt2">Sign Up</a>.</p>
           </div>
         </form>
