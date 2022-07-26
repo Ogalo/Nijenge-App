@@ -12,45 +12,47 @@ function Entrepreneur() {
       <p>Please fill in the form</p>
 
       <div>
-        <form action='class' onSubmit={()=> {}}>
-          <label for="text"><b>Business Name</b></label>
-          <input onChange={()=>{}} placeholder="Enter the Business Name" name='business' id='busina' required />
-
+        <form action="" class="entrepreneur" id="entreProp">
+          <span className = "closeBtn2">
+          <i className = "fas fa-times"></i>
+          </span>
+        <div className="proposal">
+          <h1>Entrepreneur Proposal</h1>
+        
+    
+          <label for="text"><b>business name</b></label>
+          <input type="text" placeholder="Enter business name" name="business" id="busina" required />
+    
           <label for="probState"><b>Problem Statement</b></label>
-          <input onChange={()=>{}} placeholder="Enter the Problem Statement" name='business' id='busina2' required />
+          <input type="text" placeholder="Enter problem statement" name="business" id="busina2" required />
 
-          
-          <label for="solSummary"><b>Solution Summary</b></label>
-          <input onChange={()=>{}} placeholder="Enter Solution" name='business' id='busina3' required />
+         <label for="solSummary"><b> Solution Summary</b></label>
+          <input type="text" placeholder="Enter solution" name="business" id="busina3" required />
 
-          
-          <label for="probState"><b>Target Market</b></label>
-          <input onChange={()=>{}} placeholder="Target market" name='business' id='busina4' required />
+          <label for="targetMarket"><b>Market</b></label>
+          <input type="text" placeholder="What is your target market ?" name="business" id="busina4" required />
 
-          
-          <label for="Amount"><b>Amount Request</b></label>
-          <input onChange={()=>{}} placeholder="Enter the Problem Statement" name='business' id='busina5' required />
+          <label for="competitors"><b>Competitors</b></label>
+          <input type="text" placeholder="Who are your competitors ?" name="business" id="busina5" required />
 
+          <label for="whyUs"><b> Why Us</b></label>
+          <input type="text" placeholder="Why should I choose you ?" name="business" id="busina6" required />
 
-          
-          <label for="probState"><b>Returns and Expectations</b></label>
-          <input onChange={()=>{}} placeholder="Enter value in Dollars" name='business' id='busina6' required />
+         <label for="Forecast"><b>Returns and Expectations</b></label>
+          <input type="text" placeholder="financial targets " name="business" id="forcast" required />
 
+          <label for="Shares"><b>Share Offer</b></label>
+          <input type="text" placeholder="Offering" name="Shares" id="shares" required />
 
-          
-          <label for="shares"><b>Shares Offer</b></label>
-          <input onChange={()=>{}} placeholder="Enter the Problem Statement" name='business' id='busina2' required />
+          </div>
 
-          <label for="plan"><b>Business Plan</b></label>
-          <p>Please upload your business Plan</p>
-          <Proposal files={files} setFiles={setFiles} />
-          
-          <button type='submit' onClick={()=>{}}>Submit Form</button>
+    
+        
+        
+        <button type='submit' onClick={()=>{}}>Submit Form</button>
         </form>
       </div>
-
-      
-    </div>
+      </div>
   )
 }
 
