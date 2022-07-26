@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.mainPage{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: fixed;
+  
+}
+
+.navLinks{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 62px;
+  margin-left: 62px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.navLinks .sign button {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0.5px solid rgba(255, 255, 255, 0.349);
+  padding: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.navLinks .sign button a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.navLinks .sign button a:hover {
+  cursor: pointer;
+  color: rgba(16, 88, 221, 0.959);
+}
+
+
+.mediaLinks a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: Bold;
+  padding-left: 20px;
+  height: 40px;
+  font-size: 30px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.mediaLinks ion-icon:hover{
+  color: rgba(16, 88, 221, 0.959);
+}
+
+.logInPage{
+  width: 100%;
+  display: none;
+  position:absolute;
+  justify-content: center;
+  align-content: center;
+  padding-top: 12vh;
+
+  
+}
+
+.entrePage{
+  width: 100%;
+  display: none;
+  height: 120vh;
+  position:absolute;
+  justify-content: center;
+  align-content: center;
+
+}
+ 
+.investPage{
+  width: 100%;
+  display: none;
+  position:absolute;
+  justify-content: center;
+  align-content: center;
+  padding-top: 12vh;
+
+
+}
+
+.page {
+  width: 100%;
+  display: none;
+  height: 100vh;
+  position:absolute;
+   
+}
+
+.about{
+  width: 100%;
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5vh;
+  background-color: #ffff;
+  height: 80vh;
+  text-align: center;
+
+}
+.about h1 {
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 30px;
+
+}
+
+.about p{
+  font-size: 25px;
+  text-align: start;
+  padding: 80px;
+  line-height: 40px;
+}
+
+.about span {
+  padding: 50px;
+}
+.target h4 a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.target h4 a:hover{
+  color: rgba(16, 88, 221, 0.959);
+}
+
+
+span{
+  display: block;
+  font-size: 26px;
+  text-align: right;
+}
+span i:hover{
+  cursor: pointer;
+  color: rgba(16, 88, 221, 0.959);
+}
+
+.entrepreneur{
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.businessName{
+  display:block;
+  justify-items: center;
+  align-content: center;
+  margin: auto;
+  position: relative;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:80px;
+  
+}
+
+.businessName h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.businessName .target{
+  padding-top: 10px;
+  padding-left: -70px;
+  justify-items: center;
+  
+}
+
+.businessName .target h4 {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  margin: 20px;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.businessName .target h4:hover{
+  color: rgba(16, 88, 221, 0.959);
+}
+
+.navMenus{
+  display: flex;
+  padding:35px 150px 35px 150px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  color: white;
+
+}
+
+.navMenus h3 {
+  display: inline-block;
+  padding: 20px 70px 5px ;
+
+
+}
+
+.navMenus h3:hover {
+  cursor: pointer;
+  color: rgba(16, 88, 221, 0.959);
+}
+
+@media screen and (min-width: 400px) {
+  
+}
+
+.form, .logIn{
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+.container, .container2, .proposal, .investors {
+  padding: 20px;
+  background-color: #ffff;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.investors{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:80px;
+  justify-content: center;
+  align-content: center;
+}
+
+.investors h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.optionSelect{
+  padding-top: 20px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffff;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content-table tbody tr:hover {
+  font-weight: bold;
+  color: #009879;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content-table th, .content-table td {
+  padding: 12px 15px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddd;
+
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
