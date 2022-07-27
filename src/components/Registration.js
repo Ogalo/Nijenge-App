@@ -5,8 +5,10 @@ import SignUp from './SignUp'
 function Registration() {
   return (
     <div>
+    
       <SignUp />
       <SignIn />
+      
     </div>
   )
 }

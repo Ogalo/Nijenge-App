@@ -63,7 +63,7 @@
 
 .logInPage{
   width: 100%;
-  display: block;
+  display: none;
   position:absolute;
   justify-content: center;
   align-content: center;
@@ -74,7 +74,7 @@
 
 .entrePage{
   width: 100%;
-  display: block;
+  display: none;
   height: 120vh;
   position:absolute;
   justify-content: center;
@@ -103,7 +103,7 @@
 
 .about{
   width: 100%;
-  display: block;
+  display: none;
   position: absolute;
   justify-content: center;
   align-content: center;
