@@ -8,7 +8,7 @@ function Entrepreneur() {
 
   return (
       <div>
-      <section class="entrePage" id="entrePage">
+      <section className="entrePage" id="entrePage">
         <form action="" class="entrepreneur" id="entreProp">
           <span className = "closeBtn2">
           <i className = "fas fa-times"></i>
