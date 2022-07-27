@@ -1,10 +1,10 @@
 import React from 'react';
 import Entrepreneur from './components/Entrepreneur';
 import Consultant from './components/Consultant';
-import SignUp from './components/SignUp';
 import Navbar from './components/Navbar';
 import BusinessPage from './components/BusinessPage';
 import About from './components/About';
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
      <BusinessPage />
      <Entrepreneur />
      <Consultant />
-     <SignUp />
+     <Registration />
      <About />
     </div>
   );
