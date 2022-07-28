@@ -1,17 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function BusinessPage() {
   return (
-    <div>
+    <div className='mainPage'>
     
         <div className="businessName">
           <h1>Nijenge</h1>
           <div className="target">
-           <Link id="entreBtn" to="/entrepreneur">Entrepreneur</Link>
-           <Link to='/venture' id="investBtn">Investor</Link>
-           <Link to='/consultant' id="ConsulBtn">Consultants</Link>
-           <Link to='/followUp' id="followBtn">Follow Ups</Link>
+           <h4 id="entreBtn"><a href="#">Entrepreneur</a></h4>
+           <h4 id="investBtn"><a href="#">Investor</a></h4>
+           <h4 id="ConsulBtn"><a href="#">Consultants</a></h4>
+           <h4 id="followBtn"><a href="#">Follow Ups</a></h4>
           </div>
         </div>
      

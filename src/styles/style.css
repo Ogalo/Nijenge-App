@@ -74,7 +74,7 @@ html{
 
 .entrePage{
   width: 100%;
-  display: block;
+  display: none;
   height: 120vh;
   position:absolute;
   justify-content: center;
@@ -129,13 +129,13 @@ html{
 .about span {
   padding: 50px;
 }
-.target  a {
+.target h4 a {
   text-decoration: none;
   color: #fff;
 
 }
 
-.target a:hover{
+.target h4 a:hover{
   color: rgba(16, 88, 221, 0.959);
 }
 
@@ -185,7 +185,7 @@ span i:hover{
   
 }
 
-.businessName .target a {
+.businessName .target h4 {
   border: 2px solid #fff;
   border-radius: 5px;
   line-height: 50px;
@@ -196,7 +196,7 @@ span i:hover{
   cursor: pointer;
 }
 
-.businessName .target a:hover{
+.businessName .target h4:hover{
   color: rgba(16, 88, 221, 0.959);
 }
 
