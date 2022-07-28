@@ -32,7 +32,7 @@ function SignUp() {
         </div>
               
         <div className="container signin">
-          <p>Already have an account? <a href='./SignIn.js'id="signIn">Sign in</a>.</p>
+          <p>Already have an account? <a href='./SignIn'id="signIn">Sign in</a>.</p>
         </div>
       </form>
     </div>

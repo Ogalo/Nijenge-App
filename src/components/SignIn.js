@@ -26,7 +26,7 @@ function SignIn() {
           </div>
       
           <div className="container signin">
-            <p>Don't have an account? <a href="#signUp" id="butt2">Sign Up</a>.</p>
+            <p>Don't have an account? <a href="./signUp" id="butt2">Sign Up</a>.</p>
           </div>
         </form>
         

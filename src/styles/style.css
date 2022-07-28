@@ -6,7 +6,7 @@
 
 
 
-.mainPage{
+html{
   width: 100%;
   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg);
   background-position: center;
@@ -63,7 +63,7 @@
 
 .logInPage{
   width: 100%;
-  display: none;
+  display: block;
   position:absolute;
   justify-content: center;
   align-content: center;
@@ -74,7 +74,7 @@
 
 .entrePage{
   width: 100%;
-  display: none;
+  display: block;
   height: 120vh;
   position:absolute;
   justify-content: center;
@@ -84,7 +84,7 @@
  
 .investPage{
   width: 100%;
-  display: none;
+  display: block;
   position:absolute;
   justify-content: center;
   align-content: center;
@@ -95,7 +95,7 @@
 
 .page {
   width: 100%;
-  display: none;
+  display: block;
   height: 100vh;
   position:absolute;
    
@@ -103,7 +103,7 @@
 
 .about{
   width: 100%;
-  display: none;
+  display: block;
   position: absolute;
   justify-content: center;
   align-content: center;
@@ -129,13 +129,13 @@
 .about span {
   padding: 50px;
 }
-.target h4 a {
+.target  a {
   text-decoration: none;
   color: #fff;
 
 }
 
-.target h4 a:hover{
+.target a:hover{
   color: rgba(16, 88, 221, 0.959);
 }
 
@@ -185,7 +185,7 @@ span i:hover{
   
 }
 
-.businessName .target h4 {
+.businessName .target a {
   border: 2px solid #fff;
   border-radius: 5px;
   line-height: 50px;
@@ -196,7 +196,7 @@ span i:hover{
   cursor: pointer;
 }
 
-.businessName .target h4:hover{
+.businessName .target a:hover{
   color: rgba(16, 88, 221, 0.959);
 }
 
