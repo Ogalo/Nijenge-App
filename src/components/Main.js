@@ -5,6 +5,7 @@ import SignUp from './SignUp';
 import Navbar from './Navbar';
 import BusinessPage from './BusinessPage';
 import About from './About';
+import {BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
 
 function Main() {
