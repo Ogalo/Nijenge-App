@@ -3,7 +3,7 @@ import React from 'react'
 function SignIn() {
   return (
     <div>
-    <section class="logInPage" id="logInPage">
+    <section className="logInPage" id="logInPage">
       <div className="logIn">
         <form >
           <span className = "closeBtn1">

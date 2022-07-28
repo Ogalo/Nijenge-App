@@ -1,23 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+
 
 function SignUp() {
-  
-  function handleSubmit(e){
-    e.preventDefault();
-  };
-
-  function handleSignIn(){
-    
-  }
-
   return (
     <div>
     <section id="signUp" className="page">
     
     
     <div className="form">
-      <form action="#" id="signUpForm" onSubmit={handleSubmit}>
+      <form action="#" id="signUpForm">
         <span className = "closeBtn">
           <i className = "fas fa-times"></i>
         </span>
@@ -36,12 +27,12 @@ function SignUp() {
           <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required />
           
       
-          <p>By creating an account you agree to our <Link>Terms & Privacy</Link>.</p>
+          <p>By creating an account you agree to our <a href='./Services.js'>Terms & Privacy</a>.</p>
           <button type="submit" className="registerbtn" id="registerbtn">Register</button>
         </div>
               
         <div className="container signin">
-          <p>Already have an account? <Link id="signIn" onClick={handleSignIn}>Sign in</Link></p>
+          <p>Already have an account? <a href='./SignIn.js'id="signIn">Sign in</a>.</p>
         </div>
       </form>
     </div>

@@ -1,11 +1,11 @@
 import React from 'react';
-import Entrepreneur from './components/Entrepreneur';
-import Consultant from './components/Consultant';
-import SignUp from './components/SignUp';
-import Navbar from './components/Navbar';
-import BusinessPage from './components/BusinessPage';
-import About from './components/About';
-import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import Entrepreneur from './Entrepreneur';
+import Consultant from './Consultant';
+import SignUp from './SignUp';
+import Navbar from './Navbar';
+import BusinessPage from './BusinessPage';
+import About from './About';
+
 
 function Main() {
   return (
