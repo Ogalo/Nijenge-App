@@ -1,10 +1,8 @@
-import React, {useState} from 'react';
-import Proposal from './Proposal';
+import React from 'react';
+
 
 function Entrepreneur() {
-  const [files, setFiles] = useState([{
-    name: "proposal.pdf"
-  }])
+
 
   return (
       <div>

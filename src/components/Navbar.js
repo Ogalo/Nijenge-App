@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
 
-const handleRegistration=()=>{
+  function handleRegistration(){
    
-}
+  };
 
 
   return (
