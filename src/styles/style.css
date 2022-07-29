@@ -26,7 +26,7 @@
   font-size: 20px;
 }
 
-.navLinks .sign button a {
+.navLinks .sign a button  {
   font-size: 18px;
   border-radius: 5px;
   border: 0.5px solid rgba(255, 255, 255, 0.349);
@@ -35,13 +35,13 @@
   
 }
 
-.navLinks .sign button a{
+.navLinks .sign a button {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
 
-.navLinks .sign button a:hover {
+.navLinks .sign  button:hover {
   cursor: pointer;
   color: rgba(16, 88, 221, 0.959);
 }
@@ -230,6 +230,16 @@ span i:hover{
   padding-top: 30px;
   padding-left: 150px;
   padding-right: 150px;
+}
+
+.entrepreneur button {
+  margin-top: -30px;
+  margin-left: +20px ;
+  margin-bottom: 50px;
+  background-color: #04AA6D;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 

@@ -38,6 +38,12 @@ function Entrepreneur() {
 
           <label htmlFor="Shares"><b>Share Offer</b></label>
           <input type="text" placeholder="Offering" name="Shares" id="shares" required />
+          <label htmlFor="businessPlan"><b>Business Plan</b></label>
+          <hr/>
+          <p>Please Upload your business Plan here</p>
+          <hr/>
+          <input type="file" placeholder="Offering" name="Shares" id="shares" required />
+
 
           </div>
 
