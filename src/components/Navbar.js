@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className="main">
+    <div className="navLinks">
      
         <div className="mediaLinks">
           <a href="/" target="_self"><ion-icon name="logo-linkedIn"></ion-icon></a>

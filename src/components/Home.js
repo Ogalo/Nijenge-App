@@ -6,8 +6,11 @@ import Navbar from "./Navbar";
 function Home() {
   return (
     <div className="mainPage">  
+    <div className="main">
     <Navbar />
-    <BusinessPage className="main" />
+    <BusinessPage />
+    </div>
+    
     </div>
   );
 }

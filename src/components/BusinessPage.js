@@ -2,7 +2,7 @@ import React from 'react'
 
 function BusinessPage() {
   return (
-    <div className='mainPage'>
+    <div>
     
         <div className="businessName">
           <h1>Nijenge</h1>
