@@ -2,11 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 
-function Entrepreneur() {
+function Entrepreneur(props) {
+ 
 
-  const handleCancel = ()=>{
 
-  }
 
 
   return (
