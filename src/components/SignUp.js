@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 
 function SignUp() {
@@ -10,7 +11,7 @@ function SignUp() {
     <div className="form">
       <form action="#" id="signUpForm">
         <span className = "closeBtn">
-          <i className = "fas fa-times"></i>
+        <Link to='/nijenge-app'><i className = "fas fa-times"></i></Link>
         </span>
         <div className="container">
           <h1>Register</h1>

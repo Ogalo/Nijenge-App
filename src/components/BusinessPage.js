@@ -18,7 +18,7 @@ function BusinessPage() {
        <div className="navMenus">
 
          <div>
-           <h3><a href='/'>Home</a></h3>
+           <h3><a href='/nijenge-app'>Home</a></h3>
            <h3 id="aboutLink"><a href='/about'>About</a> </h3>
            <h3><a href='/service'>Services</a></h3>
            <h3><a href='/contact'>Contact Us</a></h3>

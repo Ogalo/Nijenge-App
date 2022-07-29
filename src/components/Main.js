@@ -22,7 +22,7 @@ function Main() {
            
         
         <Routes>
-        <Route path='/' element={<Home />}  exact/>
+        <Route path='/nijenge-app' element={<Home />}  exact/>
         <Route path='/signUp' element={<SignUp />} exact/>
         <Route path='/signIn' element={<SignIn />} exact/>
         <Route path='/entrepreneur' element={<Entrepreneur />} exact/>

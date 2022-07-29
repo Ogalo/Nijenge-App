@@ -1,13 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function SignIn() {
+  
+  const handleSubmit=(e)=>{
+      e.preventDefault()
+  }
+
+  const handleSignIn = ()=>{
+      alert('Welcome Back!')
+  }
+
+
   return (
     <div>
     <section className="logInPage" id="logInPage">
       <div className="logIn">
-        <form >
+        <form onSubmit={handleSubmit}>
           <span className = "closeBtn1">
-            <i className = "fas fa-times"></i>
+          <Link to='/nijenge-app'><i className = "fas fa-times"></i></Link>
           </span>
 
           <div className="container2">
@@ -22,7 +33,7 @@ function SignIn() {
       
           
       
-            <button type="submit" className="registerbtn">Log In</button>
+            <button type="submit" className="registerbtn" onClick={handleSignIn} href="/nijenge-app">Log In</button>
           </div>
       
           <div className="container signin">

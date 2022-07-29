@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom'
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
     <section className="about" id="about">
 
     <span className = "closeBtn5">
-      <i className = "fas fa-times"></i>
+    <Link to='/nijenge-app'><i className = "fas fa-times"></i></Link>
     </span>
     
     <h1>About Nijenge</h1>

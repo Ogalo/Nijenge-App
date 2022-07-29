@@ -1,7 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 
 function Entrepreneur() {
+
+  const handleCancel = ()=>{
+
+  }
 
 
   return (
@@ -9,7 +14,7 @@ function Entrepreneur() {
       <section className="entrePage" id="entrePage">
         <form action="" className="entrepreneur" id="entreProp">
           <span className = "closeBtn2">
-          <i className = "fas fa-times"></i>
+         <Link to='/nijenge-app'><i className = "fas fa-times"></i></Link>
           </span>
         <div className="proposal">
           <h1>Entrepreneur Proposal</h1>
