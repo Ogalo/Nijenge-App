@@ -10,8 +10,7 @@ import Services from './Services';
 import Contacts from './Contacts';
 import {Route, Routes} from 'react-router-dom';
 import SignIn from './SignIn';
-import Navbar from './Navbar';
-import BusinessPage from './BusinessPage';
+
 
 
 

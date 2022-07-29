@@ -13,7 +13,7 @@ function Entrepreneur() {
           </span>
         <div className="proposal">
           <h1>Entrepreneur Proposal</h1>
-        
+          <hr/>
     
           <label htmlFor="text"><b>business name</b></label>
           <input type="text" placeholder="Enter business name" name="business" id="busina" required />
