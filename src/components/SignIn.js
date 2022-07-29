@@ -14,10 +14,10 @@ function SignIn() {
             <h1>Log In</h1>
           
       
-            <label for="email"><b>Email</b></label>
+            <label htmlFor="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" id="email2" required/>
       
-            <label for="psw"><b>Password</b></label>
+            <label htmlFor="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" id="psw2" required/>
       
           
@@ -26,7 +26,7 @@ function SignIn() {
           </div>
       
           <div className="container signin">
-            <p>Don't have an account? <a href="./signUp" id="butt2">Sign Up</a>.</p>
+            <p>Don't have an account? <a href="/signUp" id="butt2">Sign Up</a>.</p>
           </div>
         </form>
         

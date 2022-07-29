@@ -20,20 +20,19 @@ function Main() {
   return (
     
       <div>
-        <Navbar />
-        <BusinessPage className="mainPage"/>
+           
         
         <Routes>
-        <Route path='/nijenge-app' element={<Home />}  />
-        <Route path='/signUp' element={<SignUp />} />
-        <Route path='/signIn' element={<SignIn />} />
-        <Route path='/entrepreneur' element={<Entrepreneur />} />
-        <Route path='/venture' element={<Ventures />} />
-        <Route path='/consultant' element={<Consultant />} />
-        <Route path='/followUp' element={<FollowUp />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/service' element={<Services />} />
-        <Route path='/contactUs' element={<Contacts />} />
+        <Route path='/' element={<Home />}  exact/>
+        <Route path='/signUp' element={<SignUp />} exact/>
+        <Route path='/signIn' element={<SignIn />} exact/>
+        <Route path='/entrepreneur' element={<Entrepreneur />} exact/>
+        <Route path='/venture' element={<Ventures />} exact/>
+        <Route path='/consultant' element={<Consultant />} exact/>
+        <Route path='/followUp' element={<FollowUp />} exact/>
+        <Route path='/about' element={<About />} exact/>
+        <Route path='/service' element={<Services />} exact/>
+        <Route path='/contactUs' element={<Contacts />} exact/>
         
         </Routes>
       </div>

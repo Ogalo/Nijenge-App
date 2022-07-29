@@ -6,7 +6,7 @@
 
 
 
-html{
+.mainPage{
   width: 100%;
   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg);
   background-position: center;
@@ -26,7 +26,7 @@ html{
   font-size: 20px;
 }
 
-.navLinks .sign button {
+.navLinks .sign button a {
   font-size: 18px;
   border-radius: 5px;
   border: 0.5px solid rgba(255, 255, 255, 0.349);
@@ -74,7 +74,7 @@ html{
 
 .entrePage{
   width: 100%;
-  display: none;
+  display: block;
   height: 120vh;
   position:absolute;
   justify-content: center;
