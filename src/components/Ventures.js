@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Proposal from './Proposal';
 
 function Ventures() {
   return (
     <div>
+    <Proposal />
     <section className="investPage" id="investPage">
    
         

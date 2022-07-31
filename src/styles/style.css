@@ -356,4 +356,8 @@ a {
 
 .content-table tbody tr:nth-of-type(even){
   background-color: #f3f3f3;
-} 
+}
+
+.Proposal {
+  width: 30%
+}
