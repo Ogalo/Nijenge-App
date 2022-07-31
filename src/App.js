@@ -1,17 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Main from './components/Main'
-
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-    
-    <Main />
-    
+      <Main />
     </div>
-      
-    
   );
 }
 

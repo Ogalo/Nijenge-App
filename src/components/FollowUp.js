@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function FollowUp() {
-  return (
-    <div>FollowUp</div>
-  )
+  return <div>FollowUp</div>;
 }
 
 export default FollowUp;
