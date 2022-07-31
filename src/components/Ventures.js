@@ -4,7 +4,7 @@ import Proposal from './Proposal';
 function Ventures() {
   return (
     <div>
-       <Proposal  />
+       <Proposal />
     </div>
   )
 }
