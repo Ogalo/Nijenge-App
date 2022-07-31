@@ -369,27 +369,30 @@ a {
 
 }
 
-.proposal {
+.userInfo {
   border: 2px solid #fafafa;
   width: 30%;
   height: 300px;
 }
 
-.proposal:hover{
+.userInfo:hover{
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.proposal h1, p{
+.userInfo h1, p{
  font-size: 20px;
  font-family: 'Times New Roman', Times, serif;
  text-align: left;
  color: #9251e7;
  }
 
- .proposal button{
+ .userInfo button{
   padding: 5px;
   margin: 5px;
   border-radius: 8px;
  }
 
- .proposal 
+ .userInfo button:hover{
+  background-color: rgb(233, 62, 19);
+
+ }

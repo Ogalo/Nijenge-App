@@ -1,37 +1,44 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 function Proposal() {
 
-  
-   const [datas, setDatas] = useState (
-    [{
-      id: "0",
-      business: "",
-      imageUrl: "",
-      proposal: "",
-      offer: ""
-    }]
-  );
+   
+   const [details, setDetails] = useState ([]);
+   const [book, setBook] =useState(false);
+   
 
   function handleBooked (){
-    setDatas(false)
-    return alert ('Your have booked a venture. The entreprenuer has been alerted')
-  }
+    
+    setBook((book)=>!book)
+    
+
+    }
+
+    useEffect(() => {
+      fetch('https://nijenge-backend-app.herokuapp.com/entrepreneurs')
+      .then((res)=>res.json())
+      .then((data)=>{
+        setDetails(data)
+        console.log(data)
+      })
+    }, [])
+
+    const businessDetails = details;
+
+
 
   return (
     <div className="post">
-    {datas.map((data)=>(
-      <div className='proposal' key={data.id}>
-      <img src={data.imageUrl} alt='businessImage'/>
-       <h1>{data.business}</h1>
-       <p>Asking For: {data.proposal}</p>
-       <p>Offers: $ {data.offer}</p>
-
-       <button onClick={handleBooked}>{data ? "Book" : "Booked"}</button>
+    {businessDetails.map((detail)=>(
+      <div className='userInfo' key={detail.id}>
+       <h1>Summary: {detail.plan}</h1>
+       <h1>Business Name: {detail.business}</h1>
+       <p>Asking For: $ {detail.returns}</p>
+       <p>Offers: {detail.offers}% </p>
+       
 
       </div>
     ))}
-
       
     </div>
   )

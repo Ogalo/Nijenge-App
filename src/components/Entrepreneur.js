@@ -1,19 +1,45 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
+
 
 
 function Entrepreneur() {
   
-  
+  const navigate = useNavigate()
   const [business, setBusiness] = useState ('');
   const [returns, setReturns] = useState("");
   const [offers, setOffers] = useState('');
 
-  const [plan, setPlan] = useState();
+  const [plan, setPlan] = useState('');
+
+  
 
 
   function handleSubmit(e){
       e.preventDefault();
+      fetch("https://nijenge-backend-app.herokuapp.com/entrepreneurs", {
+        method: "POST",
+        headers: {
+          "Content-Type": 'application/json',
+
+        },
+        body: JSON.stringify(
+          {
+            business:business,
+            returns: returns,
+            offers: offers,
+            plan: plan
+
+          },
+
+        )
+
+      })
+      .then ((res)=>res.json())
+      .then ((data)=>{
+        navigate('/nijenge-app')
+        console.log(data)});
+
   }
 
   return (
@@ -46,7 +72,7 @@ function Entrepreneur() {
           <input type="text" placeholder="Why should I choose you ?" name="business" id="busina6" required />
 
          <label htmlFor="Forecast"><b>Returns and Expectations</b></label>
-          <input type="text" placeholder="financial targets " name="business" value={returns} id="forcast" required onChange={(e)=>setReturns(e.target.value)} />
+          <input type="text" placeholder="financial targets in dollars " name="business" value={returns} id="forcast" required onChange={(e)=>setReturns(e.target.value)} />
 
           <label htmlFor="Shares"><b> Offering</b></label>
           <input type="text" placeholder="Offering" value={offers} name="Shares" id="shares" required onChange={(e)=>setOffers(e.target.value)} />
@@ -54,7 +80,7 @@ function Entrepreneur() {
           <hr/>
           <p>Please Upload your business Plan here</p>
           <hr/>
-          <input type="file" placeholder="Offering" value={plan} name="Shares" id="shares" required onChange={setPlan}/>
+          <input type="text" placeholder="plan" value={plan} name="Shares" id="shares" onChange={(e)=>setPlan(e.target.value)} required/>
 
 
           </div>
