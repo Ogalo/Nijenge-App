@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nijenge-app/static/css/main.8f75ab08.css",
-    "main.js": "/nijenge-app/static/js/main.49ad6727.js",
+    "main.css": "/nijenge-app/static/css/main.36ef530f.css",
+    "main.js": "/nijenge-app/static/js/main.ca7392a2.js",
     "static/media/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg": "/nijenge-app/static/media/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.4f9d664636cdd672e9b8.jpg",
     "index.html": "/nijenge-app/index.html",
-    "main.8f75ab08.css.map": "/nijenge-app/static/css/main.8f75ab08.css.map",
-    "main.49ad6727.js.map": "/nijenge-app/static/js/main.49ad6727.js.map"
+    "main.36ef530f.css.map": "/nijenge-app/static/css/main.36ef530f.css.map",
+    "main.ca7392a2.js.map": "/nijenge-app/static/js/main.ca7392a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f75ab08.css",
-    "static/js/main.49ad6727.js"
+    "static/css/main.36ef530f.css",
+    "static/js/main.ca7392a2.js"
   ]
 }
