@@ -358,6 +358,38 @@ a {
   background-color: #f3f3f3;
 }
 
-.Proposal {
-  width: 30%
+.post {
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  height: 350px;
+
 }
+
+.proposal {
+  border: 2px solid #fafafa;
+  width: 30%;
+  height: 300px;
+}
+
+.proposal:hover{
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.proposal h1, p{
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: left;
+ color: #9251e7;
+ }
+
+ .proposal button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+ }
+
+ .proposal 

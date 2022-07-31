@@ -1,29 +1,38 @@
 import React, {useState} from 'react'
 
-function Proposal(props) {
+function Proposal() {
 
-  const [isBooked, setIsbooked] = useState(true);
+  
+   const [datas, setDatas] = useState (
+    [{
+      id: "0",
+      business: "",
+      imageUrl: "",
+      proposal: "",
+      offer: ""
+    }]
+  );
 
-  function handleBooked (event){
-    setIsbooked(false)
+  function handleBooked (){
+    setDatas(false)
+    return alert ('Your have booked a venture. The entreprenuer has been alerted')
   }
+
   return (
-    <div>
+    <div className="post">
+    {datas.map((data)=>(
+      <div className='proposal' key={data.id}>
+      <img src={data.imageUrl} alt='businessImage'/>
+       <h1>{data.business}</h1>
+       <p>Asking For: {data.proposal}</p>
+       <p>Offers: $ {data.offer}</p>
 
-    <div className="Proposals">
-       <img src='../eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg' alt='businessImage'/>
-       <h1>{props.businessName}</h1>
-       <p>Asking For: {props.askingFor}</p>
-       <p>Offers: {props.offer}</p>
+       <button onClick={handleBooked}>{data ? "Book" : "Booked"}</button>
 
-       <button onClick={handleBooked}>{isBooked ? "Book" : "Booked"}</button>
+      </div>
+    ))}
 
-    </div>
-
-
-     
       
-    
     </div>
   )
 }
