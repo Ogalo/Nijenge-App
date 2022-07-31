@@ -68,7 +68,10 @@ function Entrepreneur() {
               type="text"
               placeholder="Enter problem statement"
               name="business"
+              value={plan}
               id="busina2"
+              onChange={(e) => setPlan(e.target.value)}
+
               required
             />
 
@@ -148,12 +151,10 @@ function Entrepreneur() {
             <p>Please Upload your business Plan here</p>
             <hr />
             <input
-              type="text"
+              type="file"
               placeholder="plan"
-              value={plan}
               name="Shares"
               id="shares"
-              onChange={(e) => setPlan(e.target.value)}
               required
             />
           </div>
