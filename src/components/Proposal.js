@@ -10,6 +10,7 @@ function Proposal() {
   function handleBooked (){
     
     setBook((book)=>!book)
+    return alert ("You have booked this venture")
     
 
     }

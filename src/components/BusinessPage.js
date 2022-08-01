@@ -10,7 +10,7 @@ function BusinessPage() {
             <a href="/entrepreneur">Entrepreneur</a>
           </h4>
           <h4 id="investBtn">
-            <a href="/venture">Investor</a>
+            <a href="/venture">Ventures</a>
           </h4>
           <h4 id="ConsulBtn">
             <a href="/consultant">Consultants</a>

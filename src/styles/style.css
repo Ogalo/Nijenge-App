@@ -396,3 +396,31 @@ a {
   background-color: rgb(233, 62, 19);
 
  }
+
+ .consultants {
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
+ }
+
+ .consultants .professional {
+  padding: 8px;
+  margin: 20px;
+
+ }
+
+ .professional img {
+  height: 400px;
+  width: 400px;
+
+ }
+
+ .professional h1 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+ }
+
