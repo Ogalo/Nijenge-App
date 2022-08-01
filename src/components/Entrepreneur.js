@@ -25,7 +25,7 @@ function Entrepreneur() {
     })
       .then((res) => res.json())
       .then((data) => {
-        navigate("/nijenge-app");
+        navigate("/");
         console.log(data);
       });
   }
