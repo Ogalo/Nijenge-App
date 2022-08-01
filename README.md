@@ -50,16 +50,11 @@ To publish there business ideas and proposal.
 ```bash
 
 
-### List all available files
-
-```bash
-$ joe ls    # OR `joe list`
-```
 
 
 ### BONUS ROUND: Alternate version control software
 
-Joe isn't **just** a generator for `.gitignore` files. You can use it and its output wherever a SCM is used.
+Nijenge isn't **just** a generator for `.gitignore` files. You can use it and its output wherever a SCM is used.
 
 
 ```# Contributing
