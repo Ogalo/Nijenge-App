@@ -16,7 +16,7 @@ function SignIn() {
         <div className="logIn">
           <form onSubmit={handleSubmit}>
             <span className="closeBtn1">
-              <Link to="/nijenge-app">
+              <Link to="/">
                 <i className="fas fa-times"></i>
               </Link>
             </span>

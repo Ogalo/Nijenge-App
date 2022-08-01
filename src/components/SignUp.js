@@ -8,7 +8,7 @@ function SignUp() {
         <div className="form">
           <form action="#" id="signUpForm">
             <span className="closeBtn">
-              <Link to="/nijenge-app">
+              <Link to="/">
                 <i className="fas fa-times"></i>
               </Link>
             </span>

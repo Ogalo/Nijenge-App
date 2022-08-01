@@ -6,7 +6,7 @@ function About() {
     <div>
       <section className="about" id="about">
         <span className="closeBtn5">
-          <Link to="/nijenge-app">
+          <Link to="/">
             <i className="fas fa-times"></i>
           </Link>
         </span>

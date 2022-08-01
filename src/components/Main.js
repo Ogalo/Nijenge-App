@@ -15,7 +15,7 @@ function Main() {
   return (
     <div>
       <Routes>
-        <Route path="/nijenge-app" element={<Home />} exact />
+        <Route path="/" element={<Home />} exact />
         <Route path="/signUp" element={<SignUp />} exact />
         <Route path="/signIn" element={<SignIn />} exact />
         <Route path="/entrepreneur" element={<Entrepreneur />} exact />

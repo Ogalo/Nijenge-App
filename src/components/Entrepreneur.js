@@ -40,7 +40,7 @@ function Entrepreneur() {
           onSubmit={handleSubmit}
         >
           <span className="closeBtn2">
-            <Link to="/nijenge-app">
+            <Link to="/">
               <i className="fas fa-times"></i>
             </Link>
           </span>
