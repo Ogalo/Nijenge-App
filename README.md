@@ -1,70 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Nijenge App
 
-In the project directory, you can run:
+![](../nijenge-app/src/image/nijenge.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Written in uncomplicated (React Js)
+- No installation necessary - just use the [binary](https://ogalo.github.io/nijenge-app/).
+- Supports all Github-supported [`.gitignore` files]
+- Works on Mac, Linux and Windows
+- Supports other version control systems (`.hgignore`)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+No need of installation at the moment use these link above to access the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Option 1: Binary
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Nijenge is available for OSX (macOS), Linux and Windows.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Option 2: From source
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+$ git clone (https://ogalo.github.io/nijenge-app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+## Usage
+To Upload a business proposal that is accompanied with the expectation and returns to attract investors.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Basic usage
 
-### Code Splitting
+```to Publish you business proposal to attract investors  # 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Create and append to a global .gitignore file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To publish there business ideas and proposal.
+```bash
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### List all available files
 
-### Deployment
+```bash
+$ joe ls    # OR `joe list`
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### BONUS ROUND: Alternate version control software
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Joe isn't **just** a generator for `.gitignore` files. You can use it and its output wherever a SCM is used.
+
+
+```# Contributing
+
+#### Bug Reports & Feature Requests
+
+Please use the [issue tracker](ogaloharrison@gmail.com) to report any bugs or file feature requests.
+
+#### Developing
+
+PRs are welcome. To begin developing, do this:
+
+
+#### `tool.sh`
+
+This is a handy script that automates a lot of developing steps.
+
+
+
