@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/nijenge-app/static/css/main.5ab7eba4.css",
-    "main.js": "/nijenge-app/static/js/main.e5928919.js",
+    "main.css": "/nijenge-app/static/css/main.4228a6e6.css",
+    "main.js": "/nijenge-app/static/js/main.1144e78d.js",
     "static/media/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.jpg": "/nijenge-app/static/media/eberhard-grossgasteiger-rNWB3AaqxYs-unsplash.4f9d664636cdd672e9b8.jpg",
+    "static/media/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg": "/nijenge-app/static/media/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.42efa343bfbbcc5f350b.jpg",
+    "static/media/ali-morshedlou-WMD64tMfc4k-unsplash.jpg": "/nijenge-app/static/media/ali-morshedlou-WMD64tMfc4k-unsplash.a347b19f3c246f908122.jpg",
+    "static/media/Harvey Spector.jpg": "/nijenge-app/static/media/Harvey Spector.2f7d13735798faf10dd0.jpg",
+    "static/media/Caleb-Karuga-47107213.jpg": "/nijenge-app/static/media/Caleb-Karuga-47107213.eae10fd4932fb7f36a7e.jpg",
     "index.html": "/nijenge-app/index.html",
-    "main.5ab7eba4.css.map": "/nijenge-app/static/css/main.5ab7eba4.css.map",
-    "main.e5928919.js.map": "/nijenge-app/static/js/main.e5928919.js.map"
+    "main.4228a6e6.css.map": "/nijenge-app/static/css/main.4228a6e6.css.map",
+    "main.1144e78d.js.map": "/nijenge-app/static/js/main.1144e78d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ab7eba4.css",
-    "static/js/main.e5928919.js"
+    "static/css/main.4228a6e6.css",
+    "static/js/main.1144e78d.js"
   ]
 }
